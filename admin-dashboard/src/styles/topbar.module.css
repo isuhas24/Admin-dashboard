@@ -1,0 +1,24 @@
+.topbar {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    justify-content: flex-end;
+  }
+  
+  .searchInput {
+    padding: 8px 16px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .searchInput:focus {
+    border-color: #0070f3;
+  }
+  

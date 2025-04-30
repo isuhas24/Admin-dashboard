@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    margin: 0;
+  }
+  
+  .header button {
+    padding: 8px 12px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: left;
+    padding: 12px 16px;
+    border: none;
+  }
+
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+  }
+
+  .table tbody tr td {
+    vertical-align: middle;
+  }
+
+  .table tbody tr:not(:last-child) {
+    border-bottom: 8px solid transparent;
+  }
+
+
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .edit {
+    background-color: #f1f3f4;
+    color: #3c4043;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete {
+    background-color: #fce8e6;
+    color: #d93025;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn{
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
